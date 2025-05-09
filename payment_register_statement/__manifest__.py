@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Payment Register → Statement Line (Cash Journals)",
-    'version': '18.0.1.0.0',
+    'version': '17.0.1.0.0',
     'summary': "Auto-create bank statement lines when registering cash payments",
     'description': """
     When you register a payment via a cash journal, this module automatically
