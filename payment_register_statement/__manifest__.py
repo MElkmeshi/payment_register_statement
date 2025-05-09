@@ -12,6 +12,9 @@
     'license': 'LGPL-3',
     'category': 'Accounting/Payments',
     'depends': ['account'],
+    'data': [
+        'security/ir.model.access.csv',
+    ],
     'installable': True,
     'application': False,
     'auto_install': False,
