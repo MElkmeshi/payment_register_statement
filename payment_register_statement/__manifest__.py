@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': "Payment Register → Statement Line (Cash Journals)",
-    'version': '18.0.1.0.0',
+    'version': '18.0.1.0.2',
     'summary': "Auto-create bank statement lines when registering cash payments",
     'description': """
     When you register a payment via a cash journal, this module automatically
@@ -12,6 +12,9 @@
     'license': 'LGPL-3',
     'category': 'Accounting/Payments',
     'depends': ['account'],
+    'data': [
+        'security/ir.model.access.csv',
+    ],
     'installable': True,
     'application': False,
     'auto_install': False,
